@@ -1,0 +1,121 @@
+{% extends 'app.html' %}
+
+{% block content %}
+
+    <div class="content-wrapper p-5">
+        <div class="container pl-5 pr-5">
+            <div class="card mb-4">
+                <div class="card-header text-center bg-white">
+                    <h3 class="card-title m-0">Diagnosa Secara Mandiri Untuk Mengetahui Hasil Dari Gejala Covid19</h3>
+                </div>
+                <div class="card-body">
+
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-header bg-white">
+                    <h4>Apakah anda merasakan gejala Demam ?</h4>
+                </div>
+                <div class="card-body">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="demam1" name="demam" class="custom-control-input" value="1">
+                        <label class="custom-control-label" for="demam1">Ya</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="demam2" name="demam" class="custom-control-input" value="0">
+                        <label class="custom-control-label" for="demam2">Tidak</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-header bg-white">
+                    <h4>Apakah anda sedang Sakit Kepala ?</h4>
+                </div>
+                <div class="card-body">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="sakitKepala1" name="sakit_kepala" class="custom-control-input" value="1">
+                        <label class="custom-control-label" for="sakitKepala1">Ya</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="sakitKepala2" name="sakit_kepala" class="custom-control-input" value="0">
+                        <label class="custom-control-label" for="sakitKepala2">Tidak</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-header bg-white">
+                    <h4>Apakah anda mengalami Batuk Kering ?</h4>
+                </div>
+                <div class="card-body">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="batukKering1" name="batuk_kering" class="custom-control-input" value="1">
+                        <label class="custom-control-label" for="batukKering1">Ya</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="batukKering2" name="batuk_kering" class="custom-control-input" value="0">
+                        <label class="custom-control-label" for="batukKering2">Tidak</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-header bg-white">
+                    <h4>Apakah anda sedang merasakan gejala Sakit Tenggorokan ?</h4>
+                </div>
+                <div class="card-body">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="sakitTenggorokan1" name="sakit_tenggorokan" class="custom-control-input" value="1">
+                        <label class="custom-control-label" for="sakitTenggorokan1">Ya</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="sakitTenggorokan2" name="sakit_tenggorokan" class="custom-control-input" value="0">
+                        <label class="custom-control-label" for="sakitTenggorokan2">Tidak</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-header bg-white">
+                    <h4>Apakah badan atau tubuh anda terasa Lemas ?</h4>
+                </div>
+                <div class="card-body">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="lemas1" name="lemas" class="custom-control-input" value="1">
+                        <label class="custom-control-label" for="lemas1">Ya</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="lemas2" name="lemas" class="custom-control-input" value="0">
+                        <label class="custom-control-label" for="lemas2">Tidak</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-header bg-white">
+                    <h4>Apakah anda merasakan gejala Sesak Nafas ?</h4>
+                </div>
+                <div class="card-body">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="sesakNafas1" name="sesak_nafas" class="custom-control-input" value="1">
+                        <label class="custom-control-label" for="sesakNafas1">Ya</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="sesakNafas2" name="sesak_nafas" class="custom-control-input" value="0">
+                        <label class="custom-control-label" for="sesakNafas2">Tidak</label>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div class="text-right">
+                <button class="btn btn-primary btn-lg pl-5 pr-5">Submit Diagnosa</button>
+            </div>
+
+        </div>
+
+    </div>
+
+{% endblock content %}

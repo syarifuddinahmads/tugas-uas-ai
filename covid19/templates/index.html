@@ -1,0 +1,39 @@
+{% extends 'app.html' %}
+
+{% block content %}
+
+    <div class="content-wrapper p-5">
+        <div class="container mb-4">
+            <div class="text-center p-2">
+                <h2>Selamat Datang Di Sistem Informasi Diagnosa Covid-19</h2>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card m-4">
+                         <div class="card-header text-center p-4">
+                            <img class="w-50 m-auto" src="/static/images/checkup.png" alt="">
+                        </div>
+                        <div class="card-body text-center">
+                            <a class="title" href="/diagnosa-pribadi">Diagnosa Pribadi</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p5">
+                    <div class="card m-4">
+                        <div class="card-header text-center p-4">
+                            <img class="w-50 m-auto" src="/static/images/research.png" alt="">
+                        </div>
+                        <div class="card-body text-center">
+                            <a class="title" href="/upload-data-diagnosa">Upload Data Diagnosa</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock content %}
